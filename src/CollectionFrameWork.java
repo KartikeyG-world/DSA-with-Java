@@ -61,9 +61,10 @@
 //     System.out.println(newList);
 // }
 
+import java.util.ArrayList;
 import java.util.Deque;
-import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 
@@ -185,12 +186,84 @@ void main(){
 //    System.out.println("Intersection: " + set1);
 //    // set1.containsAll(set2);
 //    System.out.println("contains all: " + set2.containsAll(set1));
-    HashSet <Student2> set1 = new HashSet<>();
-    Student2 s1 = new Student2(1, "Alice");
-    Student2 s2 = new Student2(1, "Alice");
-    set1.add(s1);
-    set1.add(s2);
-    System.out.println("HashSet: " + set1);
+    // HashSet <Student2> set1 = new HashSet<>();
+    // Student2 s1 = new Student2(1, "Alice");
+    // Student2 s2 = new Student2(1, "Alice");
+    // set1.add(s1);
+    // set1.add(s2);
+    // System.out.println("HashSet: " + set1);
     
 
+    // Map <String , String> mapping = new HashMap<>();
+    // mapping.put("A", "Apple");
+    // mapping.put("B", "Banana");
+    // mapping.put("C", "Cherry");
+    // mapping.put("D", "Date");
+    // mapping.put("K" , "Kartikey");
+    // System.out.println("Map: " + mapping);
+
+    
+    // System.out.println("***********************");
+
+
+    // Map < String , String> mapping2 = new HashMap<>();
+    // mapping2.put("br" , "Brazil");
+    // System.out.println("Map 2 before putAll: " + mapping2);
+    // System.out.println("***********************");
+    // mapping2.putAll(mapping);
+    // System.out.println("Map 2 after putAll: " + mapping2);
+    // System.out.println("***********************");
+
+    // //deletion
+    // mapping2.remove("A");
+    // System.out.println("Map 2 after removing key 'A': " + mapping2);
+    // System.out.println("***********************");
+    // mapping2.size();
+    // System.out.println("Size of Map 2: " + mapping2.size());
+    // System.out.println("***********************");
+    // mapping2.clear();
+    // System.out.println("Map 2 after clear: " + mapping2);
+    // System.out.println("***********************");
+    // mapping2.size();
+    // System.out.println("Size of Map 2 after clear: " + mapping2.size());
+    // System.out.println("***********************");
+    // mapping2.putIfAbsent("br" , "Brazil");
+    // System.out.println("Map 2 after putIfAbsent: " + mapping2);
+    // System.out.println("***********************");
+    // System.out.println(mapping2.get("br"));
+    // System.out.println("***********************");
+    // mapping2.put("us" , "United States");
+    // mapping.put("in" , "India");
+    // System.out.println(mapping2.getOrDefault("us" , "Not Found"));
+    // System.out.println("***********************");
+    // System.out.println(mapping2.containsKey("br"));
+    // System.out.println("***********************");
+    // System.out.println(mapping2.containsValue("United States"));
+    // System.out.println("***********************");
+    // System.out.println(mapping2);
+    // mapping2.replace("br" , "Brazil" , "Brasil");
+    // System.out.println(mapping2);
+    // System.out.println("***********************");
+    // Set<String> keySet = mapping2.keySet();
+    // System.out.println("Keys in Map 2: " + keySet);
+    // System.out.println("***********************");
+    // Collection <String> valueSet = mapping2.values();
+    // System.out.println("Values in Map 2: " + valueSet);
+    // System.out.println("***********************");
+    // Set < Map.Entry<String, String>> entrySet = mapping2.entrySet();
+    // System.out.println(entrySet);
+    // System.out.println("***********************");
+    // Map<Integer , String > map = new HashMap<>();
+    // map.put(1 , "One");
+    // map.put(2 , "Two");
+
+    // for(Map.Entry<Integer , String> entry : map.entrySet()){
+    //     System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+    // }
+    
+    
+    
+}
+public static void main(String[] args) {
+    List <Integer> list = new ArrayList<>();
 }
